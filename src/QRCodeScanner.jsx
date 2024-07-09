@@ -25,7 +25,7 @@ export const QRCodeScanner = () => {
 				constraints={ {facingMode: 'environment'} }
 				scanDelay={1000}
 				onResult={scanHandler}
-				containerStyle={{ width: '320px' }}
+				containerStyle={{ width: '500px' }}
 			/>
 			<a href={scanned} target='_blank'>
 				{scanned}
