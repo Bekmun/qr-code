@@ -65,6 +65,9 @@ body {
 	justify-content: center;
 	margin-top: 20px;
 	gap: 20px;
+	padding-inline: 15px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #61676e;
 }
 
 .link {
@@ -77,5 +80,27 @@ body {
 	&:focus,
 	&:hover {
 		border-color: #fff;
+	}
+}
+
+.qrCode {
+	display: flex;
+	padding: 30px 15px;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}
+
+.qrCode p {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 10px;
+}
+
+@media (max-width: 600px) {
+	.nav {
+		flex-direction: column;
 	}
 }

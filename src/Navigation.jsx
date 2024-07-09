@@ -4,16 +4,16 @@ import style from './styles.module.css'
 export const Navigation = () => {
 	return (
 		<nav className={style.nav}>
-			<Link className={style.link} to='/generate'>
+			<Link className={style.link} to='/qr-code/generate'>
 				Генерировать QR код
 			</Link>
-			<Link className={style.link} to='/scan'>
+			<Link className={style.link} to='/qr-code/scan'>
 				Сканировать QR код
 			</Link>
-			<Link className={style.link} to='/generateHistory'>
+			<Link className={style.link} to='/qr-code/generateHistory'>
 				История генерирования
 			</Link>
-			<Link className={style.link} to='/scanHistory'>
+			<Link className={style.link} to='/qr-code/scanHistory'>
 				История Сканирования
 			</Link>
 		</nav>
